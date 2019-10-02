@@ -18,7 +18,8 @@ public class JackTokenizer {
 
         for(int i = 0; i < wordChars.length; i++)
         {
-            if(wordChars[i] == '"')
+            //prototype
+            /*if(wordChars[i] == '"')
         {
             for(int j = i + 1; j < wordChars.length; j++)
             {
@@ -26,7 +27,7 @@ public class JackTokenizer {
                 if(wordChars[j] == '"')
                     break;
             }
-        }
+        }*/
             boolean isSymbol = false;
             for(int j = 0; j < SYMBOLS.length; j++)
             {
